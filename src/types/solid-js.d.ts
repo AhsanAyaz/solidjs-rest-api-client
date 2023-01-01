@@ -5,5 +5,9 @@ declare module "solid-js" {
     interface IntrinsicElements {
       "ion-icon": any;
     }
+    interface Directives {
+      clickOutside?: () => void;
+    }
+
   }
 }
